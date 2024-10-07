@@ -27,7 +27,7 @@ public class PdfService {
                     field.setValue(request.lastName);
                 }
 
-                PDField orderAmount = acroForm.getField("order_total");
+                PDField orderAmount = acroForm.getField("order_amount");
                 if (orderAmount != null) {
                     orderAmount.setValue(request.orderAmount);
                 }
