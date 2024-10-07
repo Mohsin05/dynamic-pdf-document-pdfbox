@@ -6,5 +6,6 @@ curl --location --request GET 'http://localhost:8080/fill-pdf?pdfPath=%2FUsers%2
     "lastName": "test",
     "orderAmount": "25003"
 }'
+
 2. Replace the user_name with your login in username of your device
 3. out file will be store in the folder outputfile
